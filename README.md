@@ -6,4 +6,4 @@
 bash run_scripts/instructblip/train/run_finetune_instructblip_experiments.sh symmetric 32
 ```
 
-[KSIAM_2025_Poster.pdf](https://github.com/user-attachments/files/20793142/KSIAM_2025_Poster.pdf)
+![InstructBLIP_포스터_인쇄](https://github.com/user-attachments/assets/94092000-de4d-484c-9f4c-83eae2374ed8)
