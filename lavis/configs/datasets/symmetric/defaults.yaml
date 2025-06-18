@@ -1,0 +1,44 @@
+datasets:
+  symmetric:
+    # data_dir: ${env.data_dir}/datasets
+    data_type: images # [images|videos|features]
+
+    build_info:
+      # few_shot_path: /home/user/project/InstructBLIP_PEFT/input/Final_Test_dataset/graph_counter/few_no.json
+      #Train
+      annotations:
+        train:
+          storage: /home/user/project/InstructBLIP_PEFT/input/Final_Train_dataset/train_merge.json
+        val:
+          storage: /home/user/project/InstructBLIP_PEFT/input/Final_Test_dataset/graph_root/with_2.json
+        test:
+          storage: /home/user/project/InstructBLIP_PEFT/input/Final_Train_dataset/2DlinePlots/test102.json
+
+      images:
+        storage: /home/user/project/InstructBLIP_PEFT/input/Final_Train_dataset
+        train:
+          storage: /home/user/project/InstructBLIP_PEFT/input/Final_Train_dataset
+        val:
+          storage: /home/user/project/InstructBLIP_PEFT/input/Final_Train_dataset
+        test:
+          storage: /home/user/project/InstructBLIP_PEFT/input/Final_Train_dataset
+
+      #graph_train
+      # annotations:
+      #   train:
+      #     storage: /home/user/project/InstructBLIP_PEFT/input/Final_Train_dataset/2DlinePlots/test.json
+      #   val:
+      #     storage: /home/user/project/InstructBLIP_PEFT/input/Final_Test_dataset/graph_root/val.json
+      #   test:
+      #     storage: /home/user/project/InstructBLIP_PEFT/input/Final_Train_dataset/2DlinePlots/test.json
+
+      # images:
+      #   storage: /home/user/project/output
+      #   train:
+      #     storage: /home/user/project/InstructBLIP_PEFT/input/Final_Train_dataset/2DlinePlots/test
+      #   val:
+      #     storage: /home/user/project/InstructBLIP_PEFT/input/Final_Test_dataset/graph_sym
+      #   test:
+      #     storage: /home/user/project/InstructBLIP_PEFT/input/Final_Train_dataset/2DlinePlots/test
+
+      # few_shot_path: /home/user/project/InstructBLIP_PEFT/input/Final_Test_dataset/graph_root/few.json
